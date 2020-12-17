@@ -1,9 +1,11 @@
 import React from "react";
-
+import Sacral from "./images/Sacral.jpeg";
 
 function SacralChakra() {
     return (
-        <div>Sacral Chakra
+        <div>
+            <img src={Sacral} />
+            Sacral Chakra
         </div>
     );
 }

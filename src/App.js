@@ -1,85 +1,48 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./style.css";
-import questionAPI from './question/questions';
-import QuestionBox from './components/QuestionBox';
-import Result from './components/ResultBox';
+import RootChakra from './components/RootChakra';
+import SacralChakra from './components/SacralChakra';
+import SolarPlexusChakra from './components/SolarPlexusChakra';
+import HeartChakra from './components/HeartChakra';
+import Quiz from './components/quiz';
+import ThroatChakra from "./components/ThroatChakra";
+import ThirdEyeChakra from "./components/ThirdEyeChakra";
+import CrownChakra from "./components/CrownChakra";
 
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      questionBank: [],
-
-    };
-  }
-
-  setAnswers = (id, answer) => {
-    const questionBank = this.state.questionBank.map(question => {
-      if (question.id === id) {
-        return { ...question, response: answer }
-      }
-      return question
-    })
-    this.setState({ questionBank })
-  }
-
-
-
-
-  // Function to get question from ./question 
-  getQuestions = () => {
-    questionAPI().then(question => {
-      console.log(question);
-      this.setState({ questionBank: question });
-    });
-  };
-
-  // Set state back to default and call function
-  // playAgain = () => {
-  //   this.getQuestions();
-  //   this.setState({ score: 0, responses: 0 });
-  // };
-
-  // // Function to compute scores
-  // computeAnswer = (answer, correctAns) => {
-  //   if (answer === correctAns) {
-  //     this.setState({
-  //       score: this.state.score + 1
-  //     });
-  //   }
-  //   this.setState({
-  //     responses: this.state.responses < 5
-  //       ? this.state.responses + 1
-  //       : 5
-  //   });
-  // };
-
-  // componentDidMount function to get question 
-  componentDidMount() {
-    this.getQuestions();
-  }
 
   render() {
-    return (<div className="container">
-      <div className="glow">ChakraHarmony</div>
+    return (
+      <div>
 
-      {this.state.questionBank.length > 0 &&
-        // this.state.responses < 5 &&
-        this.state.questionBank.map((question, index) => <QuestionBox question=
-          {question.question} options={question.answers} key={question.questionId + index}
-          Id={question.questionId} />)}
+        <Router>
+          <Link to="/">Quiz</Link>
+          <Link to="/root">Root</Link>
+          <Link to="/sacral">Sacral</Link>
+          <Link to="/solarplexus">Solar Plexus</Link>
+          <Link to="/heart">Heart</Link>
+          <Link to="/throat">Throat</Link>
+          <Link to="/thirdeye">Third Eye</Link>
+          <Link to="/Crown">Crown</Link>
+          <Switch>
+            <Route exact path="/" component={Quiz} />
+            <Route path="/root" component={RootChakra} />
+            <Route path="/sacral" component={SacralChakra} />
+            <Route path="/solarplexus" component={SolarPlexusChakra} />
+            <Route path="/heart" component={HeartChakra} />
+            <Route path="/throat" component={ThroatChakra} />
+            <Route path="/thirdeye" component={ThirdEyeChakra} />
+            <Route path="/crown" component={CrownChakra} />
+          </Switch>
+
+
+        </Router>
 
 
 
-      {
-        this.state.responses === 49
-          ? (<Result score={this.state.score}
-            playAgain={this.playAgain} />)
-          : null
-      }
-
-    </div>)
+      </div>)
   }
 }
 

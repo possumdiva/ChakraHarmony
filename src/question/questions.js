@@ -281,7 +281,7 @@ const qBank = [
     },
     {
         question:
-            "AHave you had any issues with blurred vision or eyestrain?",
+            "Have you had any issues with blurred vision or eyestrain?",
         answers: ["yes", "no"],
         correct: "yes",
         questionId: "36",

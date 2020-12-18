@@ -21,5 +21,13 @@ function reducer(state = initalState, action) {
     }
     console.log(state);
     return state
+    // if (action.type === "SACRAL_COUNTER") {
+    //     return {
+    //         ...state,
+    //         sacralCounter: state.sacralCounter + 1
+    //     }
+    // }
+    // console.log(state);
+    // return state
 }
 export default reducer;

@@ -5,15 +5,19 @@ import { connect } from "react-redux"
 
 // Function to question inside our app 
 const QuestionBox = (props) => {
-    const [answer, setAnswer] = useState("...");
-    console.log("questionbox answer", answer);
+    const handleChange = (e) => {
+        props.handleAnswerChange(e.target.name, e.target.value, props.Id, props.type)
+    }
     return (
         <div className="questionBox">
             <div className="question">{props.question}</div>
             <div className="radiobuttons">
-                <input type="radio" value="yes" name="answer" /> Yes
+                <form onChange={handleChange}>
+                    <input type="radio" value="yes" name="answer" /> Yes
                 <input type="radio" value="no" name="answer" /> No
-              </div>
+                </form>
+
+            </div>
         </div>
 
     )

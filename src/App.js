@@ -9,25 +9,28 @@ import Quiz from './components/quiz';
 import ThroatChakra from "./components/ThroatChakra";
 import ThirdEyeChakra from "./components/ThirdEyeChakra";
 import CrownChakra from "./components/CrownChakra";
+import Result from "./components/Result";
 
 
 class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="nav">
 
         <Router>
           <Link to="/">Quiz</Link>
+          <Link to="/result">Results</Link>
           <Link to="/root">Root</Link>
           <Link to="/sacral">Sacral</Link>
           <Link to="/solarplexus">Solar Plexus</Link>
           <Link to="/heart">Heart</Link>
           <Link to="/throat">Throat</Link>
           <Link to="/thirdeye">Third Eye</Link>
-          <Link to="/Crown">Crown</Link>
+          <Link to="/crown">Crown</Link>
           <Switch>
             <Route exact path="/" component={Quiz} />
+            <Route path="/result" component={Result} />
             <Route path="/root" component={RootChakra} />
             <Route path="/sacral" component={SacralChakra} />
             <Route path="/solarplexus" component={SolarPlexusChakra} />

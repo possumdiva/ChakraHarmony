@@ -8,40 +8,19 @@ function CrownChakra() {
             <h1 className="glow">Crown Chakra</h1>
             <div className="image-topper"><img src={Crown} />
             </div>
-            <div className="c-title">Muladhara</div>
-            <div className="c-title">Earth</div>
-            <div className="c-title">Red</div>
+            <div className="c-title">Sahasrara</div>
+            <div className="c-title">Thought</div>
+            <div className="c-title">White</div>
             <div className="questionBox">
-                The first chakra is the energy center in which supports our entire foundation. It connects us to the earth and everything around us. It is also the most common chakra to experience blockage or weakness.
-                It controls our survival instincts, security, fight-or-flight, and fear. Physically, it supports our legs, feet, and foundation. An imbalanced root chakra may cause issues with the legs, feet, digestive system, and emotional imbalances which cause feelings of not being supported, insecurity, loneliness, or fear.
-            </div>
+            Last on our list, the seventh chakra or the crown chakra is located at the top of our head. It represents oneness, truth, spirituality, and knowing. Highly spiritual, this chakra is about self-realization and the connection of the world around us. It focuses on seeking wisdom and joy and understanding. It radiates an energy dedicated to peace, faith, trust and gratitude for our lives. An imbalanced crown chakra can bring about feelings of confusion, disconnection, and insignificance. 
+            It also commonly causes disorders of the central nervous system or headaches, depression, and sensitivity to light.            </div>
             <h1 className="mid-page-items"> Ways to Bring Chakra Into Balance</h1>
             <div className="questionBox">
                 <h1 className="mid-page-items">Foods</h1>
                 <ul>
-                    <li>Red Apples</li>
-                    <li>Beets</li>
-                    <li>Tomatoes</li>
-                    <li>Pomegranates</li>
-                    <li>Strawberries</li>
-                    <li>Raspberries</li>
-                    <li>Sweet Potatoes</li>
-
-                    <li>Onions</li>
-                    <li>Carrots</li>
-                    <li>Turnips</li>
-                    <li>Garlic</li>
-                    <li>Parsnips</li>
-                    <li>Rutabega</li>
-                    <li>Ginger</li>
-
-                    <li>Eggs</li>
-                    <li>Beans</li>
-                    <li>Nuts</li>
-                    <li>Paprika</li>
-                    <li>Cumin</li>
-                    <li>Horseradish</li>
-                    <li>Cayenne</li>
+                    <li>Fasting</li>
+                    <li>Detox</li>
+                    
 
                 </ul>
             </div>
@@ -49,39 +28,44 @@ function CrownChakra() {
             <div className="questionBox">
                 <h1 className="mid-page-items">Crystals</h1>
                 <ul>
-                    <li>Red Carnelian</li>
-                    <li>Red Jasper</li>
-                    <li>Bloodstone</li>
-                    <li>Black Tourmaline</li>
-                    <li>Obsidian</li>
-                    <li>Hematite</li>
-                    <li>Fire Agate</li>
+                    <li>Selenite</li>
+                    <li>Clear Quartz</li>
+                    <li>Amethyst</li>
+                    <li>Diamond</li>
+                    
                 </ul>
             </div>
 
             <div className="questionBox">
                 <h1 className="mid-page-items">Essential Oils</h1>
                 <ul>
-                    <li>Nutmeg </li>
-                    <li>Patchouli</li>
-                    <li>Vetiver</li>
-                    <li>Bergamot</li>
-                    <li>Myrrh</li>
+                    <li>Sacred Frankincense </li>
+                    <li>Sandalwood</li>
+                    <li>Vanilla</li>
+                    <li>Balsam of Peru</li>
+                    <li>Helichrysum</li>
+                    <li>Basil</li>
+                    <li>Lavendar</li>
+
+                    <li>Neroli</li>
+                    <li>Rose</li>
+                    <li>Rosewood</li>
                     <li>Cedarwood</li>
-                    <li>Frankincense</li>
+                    <li>Vetiver</li>
+                    <li>Spikenard</li>
                 </ul>
             </div>
 
             <div className="questionBox">
                 <h1 className="mid-page-items">Activities</h1>
                 <ul>
-                    <li>Gardening </li>
-                    <li>Stomp feet</li>
-                    <li>Hiking</li>
-                    <li>Walking Barefoot</li>
-                    <li>Tending Houseplants</li>
-                    <li>Cleaning Your Home</li>
-                    <li>Hot Bath</li>
+                    <li>Meditating </li>
+                    <li>Praying</li>
+                    <li>Connecting to Spiritual Guides and Ancestors</li>
+                    <li>Asking Higher Self For Guidance</li>
+                    <li>Setting Daily or Weekly Intentions</li>
+                    <li>Engaging in a Spiritual Practice</li>
+                
                 </ul>
             </div>
 

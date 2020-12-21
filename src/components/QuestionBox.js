@@ -22,9 +22,5 @@ const QuestionBox = (props) => {
 
     )
 };
-const mapDispatchToProps = (dispatch) => {
-    return {
-        increase: () => dispatch({ type: "ROOT_COUNTER" })
-    }
-}
-export default connect(null, mapDispatchToProps)(QuestionBox); 
+
+export default QuestionBox; 

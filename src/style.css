@@ -87,7 +87,8 @@ body {
   color: white;
   align-items: center;
   text-align: center;
-}
+
+  }
 
 .score-board {
   position: relative;
@@ -130,12 +131,9 @@ ul {
   padding-top: 20px;
 }
 /* .images {
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+  background: radial-gradient(red 10px, yellow 30%, #1e90ff 50%);
 } */
+
 
 
 

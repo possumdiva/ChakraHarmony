@@ -8,40 +8,27 @@ function ThroatChakra() {
             <h1 className="glow">Throat Chakra</h1>
             <div className="image-topper"><img src={Throat} />
             </div>
-            <div className="c-title">Muladhara</div>
-            <div className="c-title">Earth</div>
-            <div className="c-title">Red</div>
+            <div className="c-title">Visuddah</div>
+            <div className="c-title">Akasha</div>
+            <div className="c-title">Blue</div>
             <div className="questionBox">
-                The first chakra is the energy center in which supports our entire foundation. It connects us to the earth and everything around us. It is also the most common chakra to experience blockage or weakness.
-                It controls our survival instincts, security, fight-or-flight, and fear. Physically, it supports our legs, feet, and foundation. An imbalanced root chakra may cause issues with the legs, feet, digestive system, and emotional imbalances which cause feelings of not being supported, insecurity, loneliness, or fear.
+            The fifth chakra translates, quite literally, into our ability to express ourselves and to speak. Located in the throat, this chakra focuses on the energy of true expression, intuition, integrity, honesty, and openness. An imbalance in this chakra can cause a blockage of communication, misunderstanding, and a stifled voice. 
+            Physically, the chakra supports the neck, throat, jaw, and teeth, and blocked energy can cause issues with sinuses, swollen glands, and neck/shoulder pain.            
             </div>
             <h1 className="mid-page-items"> Ways to Bring Chakra Into Balance</h1>
             <div className="questionBox">
                 <h1 className="mid-page-items">Foods</h1>
                 <ul>
-                    <li>Red Apples</li>
-                    <li>Beets</li>
-                    <li>Tomatoes</li>
-                    <li>Pomegranates</li>
-                    <li>Strawberries</li>
-                    <li>Raspberries</li>
-                    <li>Sweet Potatoes</li>
+                    <li>Blueberries</li>
+                    <li>Blackberries</li>
+                    <li>Coconut Water</li>
+                    <li>Herbal Tea</li>
+                    <li>Lemon</li>
+                    <li>Raw Honey</li>
+                    <li>Apples</li>
 
-                    <li>Onions</li>
-                    <li>Carrots</li>
-                    <li>Turnips</li>
-                    <li>Garlic</li>
-                    <li>Parsnips</li>
-                    <li>Rutabega</li>
-                    <li>Ginger</li>
-
-                    <li>Eggs</li>
-                    <li>Beans</li>
-                    <li>Nuts</li>
-                    <li>Paprika</li>
-                    <li>Cumin</li>
-                    <li>Horseradish</li>
-                    <li>Cayenne</li>
+                    <li>Pears</li>
+                    <li>Plums</li>
 
                 </ul>
             </div>
@@ -49,39 +36,44 @@ function ThroatChakra() {
             <div className="questionBox">
                 <h1 className="mid-page-items">Crystals</h1>
                 <ul>
-                    <li>Red Carnelian</li>
-                    <li>Red Jasper</li>
-                    <li>Bloodstone</li>
-                    <li>Black Tourmaline</li>
-                    <li>Obsidian</li>
-                    <li>Hematite</li>
-                    <li>Fire Agate</li>
+                    <li>Lapis Lazuli</li>
+                    <li>Turquoise</li>
+                    <li>Aquamarine</li>
+                    <li>Amazonite</li>
+                    <li>Blue Calcite</li>
+                    <li>Flourite</li>
                 </ul>
             </div>
 
             <div className="questionBox">
                 <h1 className="mid-page-items">Essential Oils</h1>
                 <ul>
-                    <li>Nutmeg </li>
-                    <li>Patchouli</li>
-                    <li>Vetiver</li>
-                    <li>Bergamot</li>
-                    <li>Myrrh</li>
-                    <li>Cedarwood</li>
-                    <li>Frankincense</li>
+                    <li>Geranium </li>
+                    <li>Cypress</li>
+                    <li>Peppermint</li>
+                    <li>Eucalyptus</li>
+                    <li>Lemon</li>
+                    <li>Vanilla</li>
+                    <li>Corander</li>
+                    
+                    <li>Frankincense </li>
+                    <li>Tea Tree</li>
+                    <li>Jasmine</li>
+                    <li>Spearmint</li>
+                    <li>Clove</li>
+                    <li>Chamomile</li>
+                    <li>Sage</li>
                 </ul>
             </div>
 
             <div className="questionBox">
                 <h1 className="mid-page-items">Activities</h1>
                 <ul>
-                    <li>Gardening </li>
-                    <li>Stomp feet</li>
-                    <li>Hiking</li>
-                    <li>Walking Barefoot</li>
-                    <li>Tending Houseplants</li>
-                    <li>Cleaning Your Home</li>
-                    <li>Hot Bath</li>
+                    <li>Journaling </li>
+                    <li>Writing Poems</li>
+                    <li>Singing</li>
+                    <li>Openly Expressing</li>
+                    <li>Socializing</li>
                 </ul>
             </div>
 

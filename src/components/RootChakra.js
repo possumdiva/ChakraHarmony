@@ -85,7 +85,7 @@ function RootChakra() {
                     <li>Hot Bath</li>
                 </ul>
             </div>
-
+            <button className="submit-button-return">Return to results page</button>
         </div >
     );
 }

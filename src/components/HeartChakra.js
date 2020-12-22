@@ -5,7 +5,8 @@ function HeartChakra() {
     return (
         <div className="chakra-pages">
             <h1 className="glow">Heart Chakra</h1>
-            <div className="image-topper"><img src={Heart} />
+            <div className="image-topper">
+                <img className="images" src={Heart} />
             </div>
             <div className="c-title">Anahata</div>
             <div className="c-title">Air</div>
@@ -90,8 +91,7 @@ function HeartChakra() {
                     <li>Listening to a friend in need</li>
                 </ul>
             </div>
-
-
+            <button className="submit-button-return">Return to results page</button>
         </div>
     );
 }

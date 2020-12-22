@@ -6,7 +6,8 @@ function CrownChakra() {
     return (
         <div className="chakra-pages">
             <h1 className="glow">Crown Chakra</h1>
-            <div className="image-topper"><img src={Crown} />
+            <div className="image-topper">
+                <img className="images" src={Crown} />
             </div>
             <div className="c-title">Sahasrara</div>
             <div className="c-title">Thought</div>
@@ -68,7 +69,7 @@ function CrownChakra() {
                 
                 </ul>
             </div>
-
+            <button className="submit-button-return">Return to results page</button>
 
         </div>
     );

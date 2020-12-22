@@ -1,6 +1,7 @@
 import React from "react";
 import Heart from "./images/Heart.jpeg";
 
+
 function HeartChakra() {
     return (
         <div className="chakra-pages">
@@ -92,7 +93,9 @@ function HeartChakra() {
                 </ul>
             </div>
             <button className="submit-button-return">Return to results page</button>
+            <div></div>
         </div>
+
     );
 }
 

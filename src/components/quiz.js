@@ -146,10 +146,10 @@ useEffect (()=> {
                     questionBank.map((question, index) => <QuestionBox question=
                         {question.question} handleAnswerChange={handleChange} type={question.type} options={question.answers} key={question.questionId + index}
                         Id={question.questionId} />)}
-                  <div className="s-button"> 
+                  <div className="submit-button"> 
                   {!!submitClick !== true ? <button className="submit-button" onClick={handleSubmit}>Submit</button> 
                   :    
-                  <Link to="/result" style={{ textDecoration: 'none' }}><button className="submit-button">Apply</button></Link>}
+                  <Link to="/result" style={{ textDecoration: 'none' }}><button className="submit-button">Results</button></Link>}
                   </div>
                   <Switch>
                     <Route path='/result' >

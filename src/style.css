@@ -16,6 +16,7 @@ body {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
+    padding-top: 50px;
   }
   @keyframes glow {
     from {
@@ -162,6 +163,10 @@ ul {
    background-color: transparent;
    border-color: transparent;
    font-family:'Fredericka the Great', cursive;
+   padding-bottom: 100px;
+  height: 30px;
+  padding-top: 50px;
+  width: 100%;
 
 }
 .s-button {
@@ -172,6 +177,7 @@ ul {
   padding-bottom: 100px;
   height: 30px;
   padding-top: 50px;
+ 
 }
 .submit-button-return {
   display: flex;
@@ -206,6 +212,26 @@ a {
 
   ;
 }
+
+.list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+   background-color: transparent;
+   border-color: transparent;
+   font-family:'Fredericka the Great', cursive;
+   padding-left: 140px;
+   padding-bottom: 100px;
+}
+
+
 
 
 

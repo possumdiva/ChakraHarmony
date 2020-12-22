@@ -6,7 +6,8 @@ function ThroatChakra() {
     return (
         <div className="chakra-pages">
             <h1 className="glow">Throat Chakra</h1>
-            <div className="image-topper"><img src={Throat} />
+            <div className="image-topper">
+                <img className="images" src={Throat} />
             </div>
             <div className="c-title">Visuddah</div>
             <div className="c-title">Akasha</div>
@@ -76,10 +77,7 @@ function ThroatChakra() {
                     <li>Socializing</li>
                 </ul>
             </div>
-
-
-
-
+            <button className="submit-button-return">Return to results page</button>
         </div>
     );
 }

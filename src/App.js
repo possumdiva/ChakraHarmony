@@ -17,6 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="nav">
+        
 
         <Router>
           <Link to="/">Quiz</Link>
@@ -43,7 +44,7 @@ class App extends Component {
 
         </Router>
 
-
+        
 
       </div>)
   }

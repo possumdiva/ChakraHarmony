@@ -5,12 +5,12 @@
 body {
   font-family:'Fredericka the Great', cursive;
   background-image: url(./components/images/Const-1.jpg);
-  z-index: 1;
+
 }
 
 
 .glow {
-    font-size: 80px;
+    font-size: 65px;
     color: #fff;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -26,20 +26,13 @@ body {
     }
   }
 
-.container {
-  position: relative;
-  width: 90%;
-  /* border: 10px solid white; */
-  box-shadow: 0px 2px 10px white;
-  border-radius: 10px;
-  padding: 10px;
-  box-sizing: border-box;
-  top: 25px;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-  align-items: center;
-}
+/* .container {
+
+flex-direction: row;
+justify-content: space-around;
+
+} */
+
 
 .radiobuttons {
   align-items: center;
@@ -116,6 +109,15 @@ body {
 .mid-page-items {
   color: white;
   text-align: center;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+ background-color: transparent;
+ border-color: transparent;
+ font-family:'Fredericka the Great', cursive;
 }
 
 ul {
@@ -129,10 +131,81 @@ ul {
   font-size: 35px;
   text-align: center;
   padding-top: 20px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+ background-color: transparent;
+ border-color: transparent;
+ font-family:'Fredericka the Great', cursive;
 }
-/* .images {
-  background: radial-gradient(red 10px, yellow 30%, #1e90ff 50%);
-} */
+.images {
+  border-radius: 250px;
+  height: 500px;
+  width: 500px;
+  box-shadow: 0 0 8px 8px whitesmoke inset;
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+   background-color: transparent;
+   border-color: transparent;
+   font-family:'Fredericka the Great', cursive;
+
+}
+.s-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  height: 30px;
+  padding-top: 50px;
+}
+.submit-button-return {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+   background-color: transparent;
+   border-color: transparent;
+   font-family:'Fredericka the Great', cursive;
+   padding-left: 140px;
+   padding-bottom: 100px;
+
+}
+
+a {
+  padding-left: 70px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+ background-color: transparent;
+ border-color: transparent;
+ font-family:'Fredericka the Great', cursive;
+
+  ;
+}
 
 
 

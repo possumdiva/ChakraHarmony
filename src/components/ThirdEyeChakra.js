@@ -7,7 +7,7 @@ function ThirdEyeChakra() {
         <div className="chakra-pages">
             <h1 className="glow">Third Eye Chakra</h1>
             <div className="image-topper">
-                <img src={ThirdEye} />
+                <img className="images" src={ThirdEye} />
             </div>
             <div className="c-title">Ajna</div>
             <div className="c-title">Light</div>
@@ -74,9 +74,7 @@ function ThirdEyeChakra() {
                    
                 </ul>
             </div>
-
-
-
+            <button className="submit-button-return">Return to results page</button>
         </div >
 
     );

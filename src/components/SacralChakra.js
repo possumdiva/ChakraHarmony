@@ -6,7 +6,7 @@ function SacralChakra() {
         <div className="chakra-pages">
             <h1 className="glow">Sacral Chakra</h1>
             <div className="image-topper">
-                <img src={Sacral} />
+                <img className="images" src={Sacral} />
             </div>
             <div className="c-title">Svadhisthana</div>
             <div className="c-title">Water</div>
@@ -82,8 +82,9 @@ function SacralChakra() {
                     <li>Singing</li>
                     <li>Hot Bath</li>
                 </ul>
+                
             </div>
-
+            <button className="submit-button-return">Return to results page</button>
 
         </div>
     );

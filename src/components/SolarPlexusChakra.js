@@ -6,7 +6,7 @@ function SolarPlexusChakra() {
         <div className="chakra-pages">
             <h1 className="glow">Solar Plexus Chakra</h1>
             <div className="image-topper">
-                <img src={SolarPlexus} />
+                <img className="images" src={SolarPlexus} />
             </div>
             <div className="c-title">Manipura</div>
             <div className="c-title">Fire</div>
@@ -82,7 +82,7 @@ function SolarPlexusChakra() {
 
                 </ul>
             </div>
-
+            <button className="submit-button-return">Return to results page</button>
         </div>
     );
 }

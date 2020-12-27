@@ -1,5 +1,6 @@
 import React from "react";
 import Root from "./images/Root.jpeg";
+import { Link } from 'react-router-dom';
 
 
 function RootChakra() {
@@ -85,7 +86,9 @@ function RootChakra() {
                     <li>Hot Bath</li>
                 </ul>
             </div>
-            <button className="submit-button-return">Return to results page</button>
+            <Link to="/result" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">Results</button>
+          </Link>
         </div >
     );
 }

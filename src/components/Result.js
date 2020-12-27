@@ -1,5 +1,6 @@
 import React from "react";
 import FullChakra from "./images/FullChakra.jpg";
+import { Link } from 'react-router-dom';
 import { connect } from "react-redux";
 import RootChakra from "./RootChakra";
 import SacralChakra from "./SacralChakra";
@@ -33,23 +34,27 @@ function Result({
                 Please click the links to read more about the Chakras that are out of balance below.            </div>
             <h1 className="mid-page-items"> Results of Your Chakra Quiz</h1>
            
-            
-             
-            <p className="list">{root}</p>
-            <p className="list">{sacral}</p>
-            <p className="list">{solarPlexus}</p>
-            <p className="list">{heart}</p>
-            {/* {parseInt(heart)> 3 && (<p>{heart}</p>)} */}
-            <p className="list">{throat}</p>
-            <p className="list">{thirdEye}</p>
-            <p className="list">{crown}</p>
-            {parseInt(root)> 3 && <p>test{RootChakra}</p>}
-            {parseInt(sacral)> 3 && <p>test{SacralChakra}</p>}
-            {parseInt(solarPlexus)> 3 && <p>test{SolarPlexusChakra}</p>}
-            {parseInt(heart)> 3 && <p>test{HeartChakra}</p>}
-            {parseInt(throat)> 3 && <p>test{ThroatChakra}</p>}
-            {parseInt(thirdEye)> 3 && <p>test{ThirdEyeChakra}</p>}
-            {parseInt(crown)> 3 && <p>test{CrownChakra}</p>}
+            {parseInt(root)> 3 && <Link to="/root" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">root</button>
+          </Link>}
+            {parseInt(sacral)> 3 && <Link to="/sacral" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">sacral</button>
+          </Link>}
+            {parseInt(solarPlexus)> 3 && <Link to="/solarPlexus" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">solarPlexus</button>
+          </Link>}
+            {parseInt(heart)> 3 && <Link to="/heart" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">heart</button>
+          </Link>}
+            {parseInt(throat)> 3 && <Link to="/throat" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">throat</button>
+          </Link>}
+            {parseInt(thirdEye)> 3 && <Link to="/thirdEye" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">thirdEye</button>
+          </Link>}
+            {parseInt(crown)> 3 && <Link to="/crown" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">crown</button>
+          </Link>}
 
            
 

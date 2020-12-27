@@ -15,7 +15,7 @@ ChakraHarmony is an app to help identify issues with your chakras, or energy cen
 
 ## Screenshots: 
 
-![](images/filename%20Screenshot1.jpeg)
+![55D195DF-B5E5-4EF4-88AF-20F0E4FCA531](https://user-images.githubusercontent.com/67763270/103162883-7bbbcf00-47c4-11eb-944d-02b865315e18.jpeg))
 
 
 

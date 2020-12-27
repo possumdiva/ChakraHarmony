@@ -1,5 +1,6 @@
 import React from "react";
 import Throat from "./images/Throat.jpeg";
+import { Link } from "react-router-dom";
 
 
 function ThroatChakra() {
@@ -77,7 +78,9 @@ function ThroatChakra() {
                     <li>Socializing</li>
                 </ul>
             </div>
-            <button className="submit-button-return">Return to results page</button>
+            <Link to="/result" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">Results</button>
+          </Link>
         </div>
     );
 }

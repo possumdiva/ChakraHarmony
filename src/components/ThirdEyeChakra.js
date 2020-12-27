@@ -1,7 +1,6 @@
 import React from "react";
 import ThirdEye from "./images/ThirdEye.jpeg";
-
-
+import { Link } from "react-router-dom";
 function ThirdEyeChakra() {
     return (
         <div className="chakra-pages">
@@ -74,7 +73,9 @@ function ThirdEyeChakra() {
                    
                 </ul>
             </div>
-            <button className="submit-button-return">Return to results page</button>
+            <Link to="/result" style={{ textDecoration: 'none' }}>
+            <button className="submit-button">Results</button>
+          </Link>
         </div >
 
     );

@@ -31,6 +31,7 @@ Bottom of Chakra info page
 
 ![F766EA83-F1AB-46FD-A4EF-6618EA4FE1BD](https://user-images.githubusercontent.com/67763270/103163055-af97f400-47c6-11eb-9b8f-1f40e5bbe404.jpeg)
 
+How to run
 
 
 

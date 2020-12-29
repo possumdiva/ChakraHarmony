@@ -10,7 +10,7 @@ function ThroatChakra() {
             <NavBar />
             <h1 className="glow">Throat Chakra</h1>
             <div className="image-topper">
-                <img className="images" src={Throat} />
+                <img className="images" src={Throat} alt="throat chakra image"/>
             </div>
             <div className="c-title">Visuddah</div>
             <div className="c-title">Akasha</div>

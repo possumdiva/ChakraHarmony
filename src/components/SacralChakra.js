@@ -8,7 +8,7 @@ function SacralChakra() {
             <NavBar />
             <h1 className="glow">Sacral Chakra</h1>
             <div className="image-topper">
-                <img className="images" src={Sacral} />
+                <img className="images" src={Sacral} alt="sacral chakra image"/>
             </div>
             <div className="c-title">Svadhisthana</div>
             <div className="c-title">Water</div>

@@ -7,7 +7,7 @@ function HeartChakra() {
         <div className="chakra-pages">
             <h1 className="glow">Heart Chakra</h1>
             <div className="image-topper">
-                <img className="images" src={Heart} />
+                <img className="images" src={Heart} alt="heart chakra image"/>
             </div>
             <div className="c-title">Anahata</div>
             <div className="c-title">Air</div>

@@ -8,7 +8,7 @@ function ThirdEyeChakra() {
             <NavBar />
             <h1 className="glow">Third Eye Chakra</h1>
             <div className="image-topper">
-                <img className="images" src={ThirdEye} />
+                <img className="images" src={ThirdEye} alt="third eye chakra image"/>
             </div>
             <div className="c-title">Ajna</div>
             <div className="c-title">Light</div>

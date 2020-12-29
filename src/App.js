@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import RootChakra from './components/RootChakra';
 import SacralChakra from './components/SacralChakra';

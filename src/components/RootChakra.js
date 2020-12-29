@@ -1,14 +1,16 @@
 import React from "react";
 import Root from "./images/Root.jpeg";
 import { Link } from 'react-router-dom';
+import {NavBar} from './NavBar';
 
 
 function RootChakra() {
     return (
         <div className="chakra-pages">
+            <NavBar />
             <h1 className="glow">Root Chakra</h1>
             <div className="image-topper">
-                <img className="images" src={Root} />
+                <img className="images" src={Root} alt="root chakra image" />
             </div>
             <div className="c-title">Muladhara</div>
             <div className="c-title">Earth</div>

@@ -9,6 +9,7 @@ import HeartChakra from "./HeartChakra";
 import ThroatChakra from "./ThroatChakra";
 import ThirdEyeChakra from "./ThirdEyeChakra";
 import CrownChakra from "./CrownChakra";
+import {NavBar} from './NavBar';
 
 
 
@@ -25,6 +26,7 @@ function Result({
    
    return (
         <div className="chakra-pages">
+            <NavBar />
             <h1 className="glow">Results</h1>
             <div className="image-topper">
                 <img className="images" src={FullChakra} />

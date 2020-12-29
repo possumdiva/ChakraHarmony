@@ -1,12 +1,14 @@
 import React from "react";
 import ThirdEye from "./images/ThirdEye.jpeg";
 import { Link } from "react-router-dom";
+import {NavBar} from './NavBar';
 function ThirdEyeChakra() {
     return (
         <div className="chakra-pages">
+            <NavBar />
             <h1 className="glow">Third Eye Chakra</h1>
             <div className="image-topper">
-                <img className="images" src={ThirdEye} />
+                <img className="images" src={ThirdEye} alt="third eye chakra image"/>
             </div>
             <div className="c-title">Ajna</div>
             <div className="c-title">Light</div>

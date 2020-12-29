@@ -1,14 +1,16 @@
 import React from "react";
 import Throat from "./images/Throat.jpeg";
 import { Link } from "react-router-dom";
+import {NavBar} from './NavBar';
 
 
 function ThroatChakra() {
     return (
         <div className="chakra-pages">
+            <NavBar />
             <h1 className="glow">Throat Chakra</h1>
             <div className="image-topper">
-                <img className="images" src={Throat} />
+                <img className="images" src={Throat} alt="throat chakra image"/>
             </div>
             <div className="c-title">Visuddah</div>
             <div className="c-title">Akasha</div>

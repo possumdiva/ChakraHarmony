@@ -7,7 +7,7 @@ function CrownChakra() {
         <div className="chakra-pages">
             <h1 className="glow">Crown Chakra</h1>
             <div className="image-topper">
-                <img className="images" src={Crown} />
+                <img className="images" src={Crown} alt="crown chakra image"/>
             </div>
             <div className="c-title">Sahasrara</div>
             <div className="c-title">Thought</div>

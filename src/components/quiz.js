@@ -92,50 +92,53 @@ function Quiz({
     // console.log("quiz crown",crownCount)
   };
   const handleSubmit = () => {
-    console.log(answerBank);
-
-    let rootCount = 0;
-    let sacralCount = 0;
-    let solarPlexusCount = 0;
-    let heartCount = 0;
-    let throatCount = 0;
-    let thirdEyeCount = 0;
-    let crownCount = 0;
-    for (let i = 0; i < answerBank.length; i++) {
-      if (answerBank[i].type === 'Root' && answerBank[i].value === 'yes') {
-        rootCount += 1;
-        setRoot(rootCount);
+    if (answerBank.length > 48) {
+      console.log('Answers Are Long Enough: ', answerBank);
+      let rootCount = 0;
+      let sacralCount = 0;
+      let solarPlexusCount = 0;
+      let heartCount = 0;
+      let throatCount = 0;
+      let thirdEyeCount = 0;
+      let crownCount = 0;
+      for (let i = 0; i < answerBank.length; i++) {
+        if (answerBank[i].type === 'Root' && answerBank[i].value === 'yes') {
+          rootCount += 1;
+          setRoot(rootCount);
+        }
+        if (answerBank[i].type === 'Sacral' && answerBank[i].value === 'yes') {
+          sacralCount += 1;
+          setSacral(sacralCount);
+        }
+        if (
+          answerBank[i].type === 'SolarPlexus' &&
+          answerBank[i].value === 'yes'
+        ) {
+          solarPlexusCount += 1;
+          setSolarPlexus(solarPlexusCount);
+        }
+        if (answerBank[i].type === 'Heart' && answerBank[i].value === 'yes') {
+          heartCount += 1;
+          setHeart(heartCount);
+        }
+        if (answerBank[i].type === 'Throat' && answerBank[i].value === 'yes') {
+          throatCount += 1;
+          setThroat(throatCount);
+        }
+        if (answerBank[i].type === 'ThirdEye' && answerBank[i].value === 'yes') {
+          thirdEyeCount += 1;
+          setThirdEye(thirdEyeCount);
+        }
+        if (answerBank[i].type === 'Crown' && answerBank[i].value === 'yes') {
+          crownCount += 1;
+          setCrown(crownCount);
+        }
       }
-      if (answerBank[i].type === 'Sacral' && answerBank[i].value === 'yes') {
-        sacralCount += 1;
-        setSacral(sacralCount);
-      }
-      if (
-        answerBank[i].type === 'SolarPlexus' &&
-        answerBank[i].value === 'yes'
-      ) {
-        solarPlexusCount += 1;
-        setSolarPlexus(solarPlexusCount);
-      }
-      if (answerBank[i].type === 'Heart' && answerBank[i].value === 'yes') {
-        heartCount += 1;
-        setHeart(heartCount);
-      }
-      if (answerBank[i].type === 'Throat' && answerBank[i].value === 'yes') {
-        throatCount += 1;
-        setThroat(throatCount);
-      }
-      if (answerBank[i].type === 'ThirdEye' && answerBank[i].value === 'yes') {
-        thirdEyeCount += 1;
-        setThirdEye(thirdEyeCount);
-      }
-      if (answerBank[i].type === 'Crown' && answerBank[i].value === 'yes') {
-        crownCount += 1;
-        setCrown(crownCount);
-      }
+      console.log(answerBank);
+      setSubmitClick(true);
+    } else {
+      alert('Please answer all questions to view results')
     }
-    console.log(answerBank);
-    setSubmitClick(true);
   };
 
   // Function to get question from ./question
@@ -151,7 +154,7 @@ function Quiz({
       console.log('Answers Are Long Enough: ', answerBank);
       handleSubmit();
     }
-  }, [answerBank])
+  }, [answerBank]);
 
   const handleTestSubmit = () => {
     // Set fake data
@@ -240,11 +243,6 @@ function Quiz({
           </Link>
         )}
       </div>
-      <Switch>
-        <Route path="/result">
-          <Result />
-        </Route>
-      </Switch>
     </div>
   );
 }

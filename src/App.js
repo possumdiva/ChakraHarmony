@@ -20,15 +20,6 @@ class App extends Component {
         
 
         <Router>
-          <Link to="/">Quiz</Link>
-          <Link to="/result">Results</Link>
-          <Link to="/root">Root</Link>
-          <Link to="/sacral">Sacral</Link>
-          <Link to="/solarplexus">Solar Plexus</Link>
-          <Link to="/heart">Heart</Link>
-          <Link to="/throat">Throat</Link>
-          <Link to="/thirdeye">Third Eye</Link>
-          <Link to="/crown">Crown</Link>
           <Switch>
             <Route exact path="/" component={Quiz} />
             <Route path="/result" component={Result} />

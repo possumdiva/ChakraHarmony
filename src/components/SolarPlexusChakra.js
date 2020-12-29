@@ -1,9 +1,11 @@
 import React from "react";
 import SolarPlexus from "./images/SolarPlexus.jpeg";
+import {NavBar} from './NavBar';
 
 function SolarPlexusChakra() {
     return (
         <div className="chakra-pages">
+            <NavBar />
             <h1 className="glow">Solar Plexus Chakra</h1>
             <div className="image-topper">
                 <img className="images" src={SolarPlexus} />
